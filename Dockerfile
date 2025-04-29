@@ -1,8 +1,11 @@
 FROM python:3.10-slim
 
-WORKDIR /app
+WORKDIR /sensor-data
 
-# Copy in the source code
-COPY version.py .
+COPY requirements.txt . 
 
-CMD ["python","version.py"]
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+COPY ./app ./app
+
+CMD ["flask", "--app=app.main", "run", "--host=0.0.0.0", "--port=5000"]
