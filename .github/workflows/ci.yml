@@ -3,7 +3,7 @@ name: CI Pipeline
 on:
     push:
         branches:
-            [develop]
+            [ci/setup-ci-pipeline]
     pull_request:
         branches:
             [develop]
