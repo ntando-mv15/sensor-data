@@ -3,7 +3,7 @@ name: CI Pipeline
 on:
     push:
         branches:
-            [ci/setup-ci-pipeline]
+            [feat/simplify-dockerfile]
     pull_request:
         branches:
             [develop]
