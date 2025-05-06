@@ -21,7 +21,7 @@ def fetch_temperature_from_box(box_id):
                         created_at, "%Y-%m-%dT%H:%M:%S.%fZ"
                     ).replace(tzinfo=timezone.utc)
 
-                    if timestamp >= datetime.now(timezone.utc) - timedelta(hours=2):
+                    if timestamp >= datetime.now(timezone.utc) - timedelta(hours=1):
                         return float(value)
     
     except Exception as e:
