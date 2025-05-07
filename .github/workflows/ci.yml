@@ -26,8 +26,21 @@ jobs:
                   python -m pip install --upgrade pip
                   pip install -r requirements.txt
 
+            - name: Lint Dockerfile with hadolint
+              uses: hadolint/hadolint-action@v3.1.0
+              with:
+                dockerfile: Dockerfile
+
             - name: Run test
               run : |
                   pytest
+
+            - name: Build Docker image
+              run: docker build -t sensor-data:ci-test .
+                
+            
+
+
+        
                        
 
