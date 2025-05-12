@@ -26,8 +26,30 @@ jobs:
                   python -m pip install --upgrade pip
                   pip install -r requirements.txt
 
+            - name: Lint Dockerfile with hadolint
+              uses: hadolint/hadolint-action@v3.1.0
+              with:
+                dockerfile: Dockerfile
+
             - name: Run test
               run : |
                   pytest
+
+            - name: Build Docker Image
+              run: docker build -t sensor-data:ci-test .
+
+            - name: Run Image
+              run: docker run -d -p 5000:5000 --name sensor-data sensor-data:ci-test 
+
+            - name: Wait for app to start
+              run: sleep 5
+
+            - name: Call /temperature endpoint
+              run: |
+                curl --fail http://localhost:5000/temperature || exit 1
+            
+
+
+        
                        
 
