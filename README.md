@@ -3,7 +3,7 @@
 [![Telegram Group](https://img.shields.io/badge/Telegram_Group-%232ca5e0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/DevOpsHive/985)
 [![Fork on GitHub](https://img.shields.io/badge/Fork_On_GitHub-%2336465D?style=for-the-badge&logo=github&logoColor=white)](/fork)
 
-# HiveBox - DevOps End-to-End Hands-On Project
+DevOps End-to-End Hands-On Project
 
 <p align="center">
   <a href="https://devopsroadmap.io/projects/hivebox" style="display: block; padding: .5em 0; text-align: center;">
@@ -14,11 +14,27 @@
 > 
 > If you are looking for the full roadmap, including this project, go to the [getting started](https://devopsroadmap.io/getting-started) page.
 
-This repository is the starting point for [HiveBox](https://devopsroadmap.io/projects/hivebox/), the end-to-end hands-on project.
 
+This repository is the starting point for [HiveBox](https://devopsroadmap.io/projects/hivebox/), the end-to-end hands-on project.
 
 The project aims to cover the whole Software Development Life Cycle (SDLC). That means each phase will cover all aspects of DevOps, such as planning, coding, containers, testing, continuous integration, continuous delivery, infrastructure, etc.
 
+> This project is inspired by [HiveBox](https://devopsroadmap.io/projects/hivebox/), the end-to-end hands-on project. While the core idea remains similar, the implementation has been adapted to fit my learning goals, project structure, and technical preferences.
+
 ---
+
+# Documentation
+
+
+## 📘 Project Phases
+
+This project is developed in multiple phases. You can find detailed documentation for each phase below:
+
+* [Phase 1 – Project Kickoff & Setup](docs/phase1.md)
+* [Phase 2 – Environment & Dockerization](docs/phase2.md)
+* [Phase 3 – App Development, Continous Intergration and Automation](docs/phase3.md)
+
+---
+
 
 
