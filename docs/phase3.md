@@ -182,9 +182,11 @@ This keeps the container **lightweight, efficient, and secure** while following 
 
 * CI workflow triggers (pushes and PRs to main) and runs correctly:
 
-  ![CI Trigger on push to main](image-5.png)
+ ![image](https://github.com/user-attachments/assets/014a3295-c126-4053-8e6a-30552bd81d9f)
 
-  ![CI Triggered on PR to main](image-6.png)
+![image](https://github.com/user-attachments/assets/dad1672b-543a-4007-a4d6-e423083f57c1)
+
+
 
 * Dockerfile builds successfully and passes linting:
 
