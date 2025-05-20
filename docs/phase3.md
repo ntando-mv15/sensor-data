@@ -1,7 +1,12 @@
 # Phase 3 – App Development & CI/CD Implementation
 
-Phase 3 focused on how the Sensor Data App will be built, tested, and automated. The app retrieves temperature data from openSenseMap and ensures it's up to date. It follows best practices for Git commits, containerization, and CI/CD to make development smooth, secure, and efficient
+Phase 3 focused on how the Sensor Data App will be built, tested, and automated. The app retrieves temperature data from openSenseMap and ensures it's up to date. It follows best practices for Git commits, containerization, and CI/CD to make development smooth, secure, and efficient.
 
+## Architectural Diagram 
+
+![diagram-export-5-20-2025-10_47_29-PM](https://github.com/user-attachments/assets/065d3d9e-6e8b-4529-95a3-e16106ac1aef)
+
+--- 
 
 ### Project Impact
 
