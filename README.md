@@ -11,15 +11,12 @@ DevOps End-to-End Hands-On Project
   </a>
 </p>
 
-> 
-> If you are looking for the full roadmap, including this project, go to the [getting started](https://devopsroadmap.io/getting-started) page.
-
-
-This repository is the starting point for [HiveBox](https://devopsroadmap.io/projects/hivebox/), the end-to-end hands-on project.
 
 The project aims to cover the whole Software Development Life Cycle (SDLC). That means each phase will cover all aspects of DevOps, such as planning, coding, containers, testing, continuous integration, continuous delivery, infrastructure, etc.
 
 > This project is inspired by [HiveBox](https://devopsroadmap.io/projects/hivebox/), the end-to-end hands-on project. While the core idea remains similar, the implementation has been adapted to fit my learning goals, project structure, and technical preferences.
+
+> If you are looking for the full roadmap, including this project, go to the [getting started](https://devopsroadmap.io/getting-started) page.
 
 ---
 
