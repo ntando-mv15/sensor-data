@@ -155,7 +155,27 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-.vscode
+.vscode 
+
+
+# Local Terraform files
+.terraform/
+.terraform.lock.hcl
+
+# Terraform variable override files
+terraform.tfvars
+terraform.tfvars.json
+
+# Crash logs and debugging
+crash.log
+*.tfstate
+*.tfstate.backup
+
+# Sensitive or temp files
+*.log
+*.bak
+*.swp
+
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
